@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chat Bubble -->
+  <path 
+    d="M 30 80 
+       Q 20 80, 20 90 
+       L 20 120 
+       Q 20 130, 30 130 
+       L 140 130 
+       Q 150 130, 150 120 
+       L 150 90
+       Q 150 80, 140 80 
+       Z" 
+    fill="#4CAF50" 
+    stroke="#2E7D32" 
+    stroke-width="3" />
+  
+  <!-- Decorative Circle -->
+    <circle cx="45" cy="105" r="15" fill="#81C784">
+        <animate attributeName="r" values="15;20;15" dur="2s" repeatCount="indefinite" />
+    </circle>
+  
+  <!-- Text -->
+  <text x="100" y="115" font-family="Arial" font-size="30" fill="white" text-anchor="middle">Chat</text>
+</svg>
